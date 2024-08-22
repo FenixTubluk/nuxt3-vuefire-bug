@@ -1,0 +1,27 @@
+{
+  "name": "my-nuxt-layer",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "dev:prepare": "nuxt prepare .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "latest",
+    "@nuxt/ui": "^2.18.4",
+    "eslint": "^9.7.0",
+    "nuxt": "^3.12.4",
+    "nuxt-vuefire": "^1.0.4",
+    "typescript": "^5.5.3",
+    "vue": "latest"
+  },
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247",
+  "dependencies": {
+    "firebase": "^10.13.0"
+  }
+}
